@@ -1,0 +1,24 @@
+body {
+  background: #141414 !important;
+  color: #ffff !important;
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
+#root {
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+
+.movie-app > .row {
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover  {
+  cursor: pointer;
+  transform: scale(0.95);
+}
